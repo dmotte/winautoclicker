@@ -26,7 +26,7 @@ To compile this program you must have **MinGW** installed on your system. I sugg
 choco install -y mingw
 ```
 
-Then compile the `main.cpp` file with the **G++** compiler:
+Then compile the [`main.cpp`](main.cpp) file with the **G++** compiler:
 
 ```cmd
 g++ main.cpp -static -o clicker.exe
